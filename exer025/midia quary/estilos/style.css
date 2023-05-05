@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* configurações gerais */
+* { margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;}
+
+
+/* configurações para o celular*/
+
+/* Header */
+ header h1 { text-align: center; font-size: 2.5em;}
+
+/* configurações do menu de navegação*/
+menu > ul { list-style-type: none;}
+menu a { text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(68, 67, 67);
+    color: white;
+    border-top: 1px solid whitesmoke;}
+
+menu a:hover { background-color: rgb(153, 150, 150);}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+span#menuico { background-color: rgb(46, 46, 48);
+    display: block; 
+    text-align: center;
+    color: white;
+    padding: 10px;}
+    span#menuico:hover { background-color: white;
+        color: black;
+        cursor: pointer;}
